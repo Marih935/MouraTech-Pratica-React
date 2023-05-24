@@ -15,7 +15,8 @@ export const styles = StyleSheet.create({
         marginTop: 20,
     },
     conteinerCenter: {
-        flex: 1,
+        flex: 3,
+        alignItems: "center",
     },
     spaceTop: {
         flex: 1,
@@ -23,5 +24,44 @@ export const styles = StyleSheet.create({
     logo: {
         width: 40,
         height: 30,
+    },
+    imagemGrupo: {
+        height: 40,
+        width: 50,
+    },
+    title: {
+        color: '#fff',
+        fontSize: 22,
+        fontWeight: "bold",
+        paddingTop: 20,
+    },
+    subtitle: {
+        color: '#6B6B6B',
+        fontSize: 16,
+    },
+    input: {
+        backgroundColor: '#4D4D56',
+        width: 340,
+        height: 50,
+        borderRadius: 5,
+        marginTop: 35,
+        alignItems: "center",
+        justifyContent: "flex-start",
+        flexDirection: "row",
+        paddingLeft: 10,
+    },
+    button: {
+        backgroundColor: '#FFC300',
+        width: 340,
+        height: 50,
+        borderRadius: 5,
+        marginTop: 15,
+        alignItems: "center",
+        justifyContent: "center"
+    },
+    textButton: {
+        color: '#fff',
+        fontSize: 18,
+        fontWeight: "bold",
     },
 });
